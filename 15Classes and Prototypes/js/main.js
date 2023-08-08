@@ -75,7 +75,7 @@ const myComment = new Comment("Awesome Message 😀");
 
 console.log(myComment.text);*/
 
-
+/*
 class NumbersArray extends Array {
     sum() {
         return this.reduce((el, acc) => acc += el, 0)
@@ -86,3 +86,14 @@ const myArray = new NumbersArray(2, 4.7, 9)
 
 console.log(myArray)
 console.log(myArray.sum())
+
+console.log(NumbersArray.prototype === myArray.__proto__);*/
+
+
+const myName = "Serge";
+console.log(myName);
+
+console.log(myName.toUpperCase());
+
+const mySecondName  = new String("Harutyunyan");
+console.dir(mySecondName)
