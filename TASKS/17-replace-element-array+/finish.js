@@ -8,3 +8,11 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArray = ['abc', 2, 3, 4, 'qwe']
+console.log(myArray)
+
+myArray[1] = 30
+myArray[1] = myArray[1 + 1]
+
+console.log(myArray)

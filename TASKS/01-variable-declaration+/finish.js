@@ -7,6 +7,13 @@
  *
  * 3. Выведите значение переменной в консоль
  */
+/*
 let myCountry = 'Ukraine'
+
+console.log(myCountry)
+*/
+
+
+const myCountry = "Armenaia";
 
 console.log(myCountry)

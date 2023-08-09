@@ -10,3 +10,15 @@
  *
  * 5. Выведите значение переменной в консоль
  */
+
+let isStudent
+
+console.log(isStudent)
+
+isStudent = true
+
+console.log(isStudent)
+
+isStudent = false
+
+console.log(isStudent)

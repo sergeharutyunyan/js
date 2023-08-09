@@ -12,3 +12,24 @@
  *
  * 4. Вызовите функцию
  */
+
+/**
+ * const myFn = (num1, num2) => num1 - num2
+ * Возвращает разницу двух чисел*/
+
+
+/**
+ * Возвращает разницу двух чисел
+ * @param {number} num1
+ * @param {number} num2
+ * @returns {number} Разница чисел
+ */
+
+
+const myFn = (num1, num2) => num1 - num2
+
+console.log(myFn(8,9))
+
+const res = myFn(20,10)
+
+console.log(res)
