@@ -38,6 +38,7 @@ let mySetInterval = setInterval(() => {
     i++
 }, 2000)
 
+console.log(mySetInterval)
 
 setTimeout(()=> clearInterval(mySetInterval), 11000)
 
