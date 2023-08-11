@@ -8,8 +8,13 @@ function fn() {
   console.log('Привет из функции fn')
 
   return function (a) {
-    console.log(a)
+   return function (b){
+     console.log(a * b)
+    }
   }
 }
 
-fn()(true)
+fn()(2)(4)
+
+// Привет из функции fn
+// true
