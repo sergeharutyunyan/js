@@ -8,8 +8,14 @@
 'use strict'
 
 function myFunction() {
-  a = 2
+   // a = a || 2
+  // console.log(a)
+
+  const a = 2
   return a
 }
 
-myFunction()
+// myFunction(25)
+// myFunction()
+// console.log(a)
+console.log(myFunction())
