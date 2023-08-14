@@ -15,3 +15,16 @@ const postsJSON = [
   '{"postId":6134,"commentsQuantity":2}',
   '{"postId":2351,"commentsQuantity":8}',
 ]
+let myArr = [];
+ postsJSON.forEach((el) =>{
+   myArr.push(JSON.parse(el))
+})
+
+console.log(myArr)
+console.log(myArr[2]['postId'])
+
+console.log(myArr[myArr.length -1 ]['commentsQuantity'])
+
+
+
+

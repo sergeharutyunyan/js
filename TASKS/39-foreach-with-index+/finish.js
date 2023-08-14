@@ -10,3 +10,18 @@
  */
 
 const myCities = ['London', 'New York', 'Singapore']
+
+/**
+ *  возвращает строку
+ * @param index
+ * @param city
+ * @returns {`${string} is at the index ${string} in the myCities array`}
+ * @param {number} index
+ * @param {string} city
+ */
+const cityInfo = ({index, city})=>
+    `${city} is at the index ${index} in the myCities array`
+
+
+ myCities.forEach((city, index)=>
+     console.log(cityInfo({index, city})))

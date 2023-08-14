@@ -18,3 +18,31 @@ const MIN = 1000
 const MAX = 9999
 
 const myNumbers = [2355, 7235, 8135, 1762, 2361, 8351]
+
+// const myNumbers = [1, 2, 3, 4, 5, 6,7,8]
+const getRandomArbitrary = (min, max) =>
+    Math.floor(Math.random() * (max - min + 1) + min);
+
+const addArray = (arr, min, max) => {
+
+    // let newArr =  arr.map((el)=>el)
+    let newArr = [...arr]
+    // newArr.forEach((element) => {
+   /*     if (!newArr.includes(randomNum)){
+            newArr.push(randomNum)
+        }*/
+       /* !newArr.includes(randomNum)? newArr.push(randomNum) : null*/
+    // })
+
+    do {
+         randomNum = getRandomArbitrary(min, max)
+    }while (newArr.includes(randomNum))
+    newArr.push(randomNum)
+    return newArr
+    }
+
+const newArr = addArray(myNumbers, MIN, MAX)
+console.log(myNumbers)
+console.log(newArr)
+
+
