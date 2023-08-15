@@ -6,6 +6,16 @@
  *
  * 3. В противном случае вернуть "false"
  */
+/**
+ * xxx
+ * @param inputArray
+ * @param searchElement
+ * @returns {*}
+ */
+const isElementInArray = (inputArray, searchElement) =>{
+     // return !!inputArray.find((element) => element === searchElement);
+    return inputArray.includes(searchElement)
+}
 
 const transports = ['Bus', 'Car', 'Bicycle', 'Airplane']
 

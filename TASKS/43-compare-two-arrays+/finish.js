@@ -11,10 +11,25 @@
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
 
+
+/**
+ *
+ * @param firstArray
+ * @param secondArray
+ * @returns {false|*}
+ */
+const areArraysEqual = (firstArray, secondArray) =>
+    firstArray.length === secondArray.length &&
+    firstArray.every((element, index) => element === secondArray[index])
+
+
 const a = [1, 2, 3]
 const b = [1, 2, 3]
 
+const f = a;
+
 console.log(a === b) // false (Почему?)
+console.log(a === f) // false (Почему?)
 
 const c = [2, 1, 3]
 const d = [1, 2, 3, 4]
