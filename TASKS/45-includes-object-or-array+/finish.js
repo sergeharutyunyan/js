@@ -13,9 +13,12 @@ const isElementInArray = (searchElement, inputArray) => {
     if (typeof searchElement !== 'object') {
         return inputArray.includes(searchElement)
     }
-    return inputArray
-        .map((element) => JSON.stringify(element))
-        .includes(JSON.stringify(searchElement))
+    /*    return inputArray
+            .map((element) => JSON.stringify(element))
+            .includes(JSON.stringify(searchElement))*/
+
+    const convertedArray = inputArray.map((element) => JSON.stringify(element))
+    return convertedArray.includes(JSON.stringify(searchElement))
 }
 
 const tags = [

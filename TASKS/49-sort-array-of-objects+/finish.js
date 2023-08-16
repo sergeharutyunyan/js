@@ -41,3 +41,5 @@ const inputProducts = [
 // console.log(sortedProducts) // Массив отсортированных товаров
 
 // console.log(inputProducts) // Оригинальный массив не должен измениться
+
+
