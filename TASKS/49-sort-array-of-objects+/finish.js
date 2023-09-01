@@ -36,10 +36,27 @@ const inputProducts = [
   },
 ]
 
-// const sortedProducts = sortProductsByPrice(inputProducts)
+/*const myNumbers = [50,105, 25,33,10,32,40];
 
-// console.log(sortedProducts) // Массив отсортированных товаров
+console.log(myNumbers.sort((a, b) => b -  a))*/
 
-// console.log(inputProducts) // Оригинальный массив не должен измениться
+/*const sortProductsByPrice = (products)=>{
+  const copyOfProducts = [...products]
+  return copyOfProducts.sort((a, b)=>{
+   return  a.price - b.price
+  })
+}*/
+
+const sortProductsByPrice = (products)=>
+   [...products].sort((a, b)=>
+      a.price - b.price
+  )
+
+
+const sortedProducts = sortProductsByPrice(inputProducts)
+
+console.log(sortedProducts) // Массив отсортированных товаров
+
+console.log(inputProducts) // Оригинальный массив не должен измениться
 
 
