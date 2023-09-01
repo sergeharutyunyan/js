@@ -14,6 +14,12 @@
  * Внимательно сравните свои результаты с результатами тестовых вызовов
  */
 
+const weatherForecast =(city, weather = "Отличная погода!")=>{
+    return `Прогноз погоды для города ${city}: ${weather}`
+}
+/*const weatherForecast =(city, weather)=>{
+    return `Прогноз погоды для города ${city}: ${weather === undefined ? "Отличная погода!" : weather}`
+}*/
 console.log(weatherForecast('Dubai', 'Солнечно'))
 // Прогноз погоды для города Dubai: Солнечно
 
