@@ -6,7 +6,8 @@
  * Используйте деструктуризацию массива
  */
 
-const processQuantities = (/* parameters */) => {
+const processQuantities = ([minQty, maxQty, defaultQty = 0]) => {
+  // const [minQty, maxQty, defaultQty = 0] = arr
   console.log(minQty) // 8
   console.log(maxQty) // 29
   console.log(defaultQty) // 10 в первом вызове, 0 во втором вызове
@@ -17,4 +18,4 @@ const inputQuantities1 = [8, 29, 10]
 console.log(processQuantities(inputQuantities1)) // 31
 
 const inputQuantities2 = [8, 29]
-console.log(processQuantities(inputQuantities2)) // 21
+console.log(processQuantities(inputQuantities2) * 1 + ' aaa') // 21
