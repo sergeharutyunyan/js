@@ -32,7 +32,7 @@ const processPosts = (posts) => {
       const {
           postId,
           author:postAuthor,
-          commentsQty: postCommentsQty =0,} = post
+          commentsQty: postCommentsQty = 0,} = post
       return {
           postId: postId + 1000,
           postAuthor,
