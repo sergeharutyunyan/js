@@ -14,3 +14,5 @@ function firstFunction(a, b) {
 const secondFunction = function (a, b) {
   return a + b
 }
+console.log(firstFunction(2,4));
+console.log(secondFunction(  2,4));

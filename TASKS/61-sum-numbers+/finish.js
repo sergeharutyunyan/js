@@ -8,8 +8,13 @@
  * 3. Также верните эту сумму как результат функции
  */
 
-const sumNumbers = () =>{
-
+function sumNumbers  (){
+    let sum = 0;
+   for (let i = 0 ; i < arguments.length; i++){
+      sum += arguments[i]
+   }
+    console.log('Sum of all arguments is ', sum)
+    return sum
 }
 
 sumNumbers(1, 3)

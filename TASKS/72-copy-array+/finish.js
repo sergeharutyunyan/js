@@ -7,6 +7,13 @@
 const a = [1, 2, 3]
 
 // Напишите код здесь
+/*const b = a.map((el)=> el)*/
+
+// const b = Array.from(a)
+
+/*const b = [...a]*/
+
+/*const b = JSON.parse( JSON.stringify(a))*/
 
 b.push('newElement')
 
