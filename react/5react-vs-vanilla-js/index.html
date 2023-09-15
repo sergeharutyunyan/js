@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+</head>
+<body>
+<div id="react-app">
+
+</div>
+<div id="vanilla-app">
+
+</div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!--<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>-->
+
+<script>
+
+    const reactHeading = React.createElement(
+        'h1',
+        null,
+        'Hello from React')
+
+    const container = document.getElementById('react-app');
+
+    const root = ReactDOM.createRoot(container);
+    console.log(reactHeading)
+    root.render(reactHeading)
+</script>
+
+<script>
+    const vanillaJsHeading = document.createElement('h1');
+    vanillaJsHeading.textContent = "Hello from Vanilla js";
+    document.getElementById('vanilla-app').appendChild(vanillaJsHeading)
+    console.log(vanillaJsHeading)
+</script>
+</body>
+</html>
