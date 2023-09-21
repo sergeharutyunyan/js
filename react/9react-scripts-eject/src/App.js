@@ -15,7 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React react-scripts-eject
+          {/*npx serve -s build*/}
+          Learn React react-scripts-eject !!!
         </a>
       </header>
     </div>
