@@ -29,8 +29,8 @@ function App() {
             <Button text={text[3]} onClick={incrementCount}/>*/}
 
             {
-                text.map((text)=>{
-                   return <Button text={text} onClick={incrementCount}/>
+                text.map((text, index)=>{
+                   return <Button key={index} text={text} onClick={incrementCount}/>
                 })
             }
             <Button text="Resset" onClick={resetAll}/>
