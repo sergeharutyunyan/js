@@ -1,0 +1,58 @@
+.todoItem {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    max-width: 400px;
+    align-items: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+}
+
+.todoIcon {
+    color: green;
+    font-size: 20px;
+}
+
+.todoItemText {
+    margin-left: 10px;
+    color: #000;
+    width: 80%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.todoDelete,
+.todoCompeted{
+    color: #918e8e;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    display: flex;
+    transition: all 0.3s;
+}
+.todoCompeted:hover,
+.todoDelete:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+.todoCompeted:hover{
+    color: green;
+
+}
+.todoDelete:hover{
+    color: red;
+}
+.completedTodo.todoItem {
+    background-color: #112d49;
+    border: 1px solid #ccc;
+}
+
+.completedTodo.todoItem .todoIcon,
+.completedTodo.todoItem .todoItemText,
+.completedTodo.todoItem .todoDelete,
+.completedTodo.todoItem .todoCompeted{
+    color: #ccc;
+}

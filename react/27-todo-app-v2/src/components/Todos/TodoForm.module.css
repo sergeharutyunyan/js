@@ -1,0 +1,18 @@
+.todoInput {
+    display: inline-flex;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    height: 50px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 30px;
+}
+
+.todoForm {
+    margin-bottom: 30px;
+}
