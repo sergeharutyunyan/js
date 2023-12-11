@@ -19,3 +19,32 @@ button{
 button:active{
   background: #ccc;
 }
+
+/*.active{
+  color: lightgoldenrodyellow;
+  text-decoration: none;
+}*/
+.activeLink{
+  color: lightyellow;
+  text-decoration: none;
+}
+a{
+  color: lightblue;
+  font-size: 35px;
+}
+
+nav {
+  background: darkslategray;
+  padding: 15px;
+}
+nav a{
+  margin: 15px;
+}
+.courseLink{
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 25px;
+}
+.courseLink:hover{
+  text-decoration: underline;
+}
