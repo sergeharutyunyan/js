@@ -1,12 +1,10 @@
-/*
-const myArray = [1,2,3];
-console.log(myArray)
+/*const myArray = [1,2,3];
+console.log(myArray)*/
 
 
-const myArray2 = new Array(1,2,3);
-console.log(myArray2);
+/*const myArray2 = new Array(1,2,3);
+console.log(myArray2);*/
 
-*/
 
 
 const myArray = [1, true, 'a', 2, 10]
@@ -95,14 +93,12 @@ console.log(myArray.length)
 console.log(resPush);
 */
 
-/*
 console.log(myArray)
 const newArray = myArray.map((el)=> el * 2)
 
 console.log(newArray);
 
 console.log(true * 10);
-*/
 
 const newArray = myArray.map((el)=>{
     return el * 3

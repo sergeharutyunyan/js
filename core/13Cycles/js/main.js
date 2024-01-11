@@ -1,4 +1,5 @@
-/*let i = 0;
+/*
+let i = 0;
 console.log(i);
 i++;
 console.log(i);
@@ -15,8 +16,9 @@ console.log(i);
 i++;
 console.log(i);
 i++;
+*/
 
-
+/*
 const myArray = [true, 'abc', 10];
 console.log(myArray[0]);
 console.log(myArray[1]);
@@ -41,28 +43,29 @@ for(let i = 0; i < 5; i++){
 */
 
 
-// const myArray = ['first', 'second', 'third'];
+ const myArray = ['first', 'second', 'third'];
 
-/*
-for(let i = 0; i < myArray.length; i++){
+/*for(let i = 0; i < myArray.length; i++){
+    if(myArray[i] === 'second'){
+        alert("kuku")
+    }
     console.log(myArray[i]);
-}
+}*/
 
-*/
 
-/*
-myArray.forEach((element, index)=>{
-    console.log(element, index)
-})
-*/
-/*
-let i = 20;
+/*myArray.forEach((element, index)=>{
+    if(index === 1){
+        console.log(element)
+    }
+
+})*/
+
+/*let i = 20;
 do{
-    console.log(i + "do")
+    console.log(`${i} do dgdfhfh ${i + i}`)
     i++;
 }
-while (i < 10)
-*/
+while (i < 10)*/
 
 
 /*
@@ -90,30 +93,28 @@ Object.keys(myObject).forEach(key=>{
 Object.values(myObject).forEach(testValue =>{
     console.log(testValue)
 })*/
-/*
-const myArray = ['first', 'second', 'third'];
+/*const myArray = ['first', 'second', 'third'];
 
 for(const key in myArray){
     console.log(myArray[key])
-}
-*/
+}*/
 
-/*
-const myString = 'Hey';
+/*const myString = 'Heykuku';
 for(const letter of myString){
     console.log(letter)
-}
-*/
+}*/
 
-const myArray = ['first', 'second', 'third'];
+/* const myArray = ['first', 'second', 'third'];
 
-/*
 for (const element of myArray){
     console.log(element);
-}
-*/
+}*/
 
 myArray.forEach(element => {
     console.log(element)
 })
 
+
+myArray.forEach((kuku)=>{
+    console.log(kuku)
+})
